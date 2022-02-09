@@ -1,0 +1,55 @@
+.header {
+    text-align: center;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.body {
+    background-color: whitesmoke;
+}
+
+.container {
+    display: grid;
+    grid-column-gap: 30px;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
+.description {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.grid-item { 
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.grid-item-input {
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+}
+
+.output {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+
+.twoSum {
+    height: 3em;
+    width: 15em;
+    justify-content: center;
+    font-size: 1em;
+}
+
+.answer {
+    font-size: 2em;
+}
